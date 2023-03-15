@@ -28,7 +28,8 @@ namespace POOcs
         {if (valido) 
             { 
                 return comprimento * largura;
-            } else
+            } 
+            else
             {
                 Console.WriteLine("Preencha valores válidos");
                 return 0;

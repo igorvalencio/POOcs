@@ -10,10 +10,10 @@ namespace POOcs
     {
         public string Nome { get; set; }
         public int Idade { get; set; }
-        public string Cidade { get; set; }
-        public void Apresentar()
+        
+        public virtual void Apresentar()
         {
-            Console.WriteLine($"Meu nome é {Nome}, tenho {Idade} anos e moro em {Cidade}.");
+            Console.WriteLine($"Meu nome é {Nome}, tenho {Idade} anos.");
         }
     }
 }
