@@ -24,11 +24,15 @@ namespace ExemploPOO
             professor professor1 = new professor();
             professor1.salario = 2000;
             professor1.Nome = "Jonathas";
-            professor1.Idade = 30; */
+            professor1.Idade = 30; 
 
             Calduladora calculadora1 = new Calduladora();
             Console.WriteLine("Soma da primeira conta: " + calculadora1.Somar(10, 10));
-            Console.WriteLine("Soma da segunda conta: " + calculadora1.Somar(30, 120, 360));
+            Console.WriteLine("Soma da segunda conta: " + calculadora1.Somar(30, 120, 360)); */
+
+            Corrente corrente1 = new Corrente();
+            corrente1.Creditar(100);
+            corrente1.ExibirConta();
 
 
 
